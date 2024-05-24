@@ -91,15 +91,17 @@ img {
         font-style: normal;
 }
 
-.contacts-link {
+.contacts-list {
         color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        display: flex;
+        gap: 40px
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-list:hover,
+.contacts-list:focus {
         color: #404bbf;
 }
 
@@ -247,6 +249,7 @@ img {
         letter-spacing: 0.02em;
         color: #2e2f42;
         margin-bottom: 8px;
+        text-align: center;
 }
 
 .our-team-list-text {
@@ -254,6 +257,7 @@ img {
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
+        text-align: center;
 } 
 
 .team-img {
